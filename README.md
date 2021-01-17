@@ -1,5 +1,5 @@
 # Sportsbetting_Arbitrage_Calculator
-This python script creates two functions, one to calculate if an arbitrage opportunity where bets are placed on all possible outcomes is profitable and another to calculate if an arbitrage oppurtunity where a bet is placed on one site and then the corresponding bet is layed on an exchange.
+This python script creates two functions, one to calculate if an arbitrage opportunity where bets are placed on all possible outcomes is profitable and another to calculate if an arbitrage oppurtunity where a bet is placed on one site and then the corresponding bet is layed on an exchange. The odds are entered in decimal format.
 
 ## Functions and Arguments
 
