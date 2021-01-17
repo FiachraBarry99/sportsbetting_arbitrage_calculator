@@ -19,7 +19,7 @@ This python script creates two functions, one to calculate if an arbitrage oppor
 
 > lay_odds_matrix = numpy.array ([ [awins], [draw], [bwins] ])
 
-awins0 is the odds for a to win at the 0th bookie.
+awinsn is the odds for a to win at the nth bookie.
 
 ## Potential Improvements
 
