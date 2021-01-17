@@ -19,6 +19,8 @@ This python script creates two functions, one to calculate if an arbitrage oppor
 
 > lay_odds_matrix = numpy.array ([ [awins], [draw], [bwins] ])
 
+awins0 is the odds for a to win at the 0th bookie.
+
 ## Potential Improvements
 
 At the moment the script is configured so that the 0th bookie is Betfair Exchange, the 1st bookie is Unibet, the 2nd bookie is William Hill and the 3rd bookie is Paddy Power. Though this could be easily changed to different bookies or to include more or less bookies. Also the script can only take in one bookie for lay odds but again this could be changed. At the moment this is formatted as the betfair exchange. The script could also be expanded to include web scraping to retrieve the odds from the websites automatically.
