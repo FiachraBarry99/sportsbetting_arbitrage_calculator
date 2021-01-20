@@ -3,21 +3,21 @@ This python script creates two functions, one to calculate if an arbitrage oppor
 
 ## Functions and Arguments
 
-- 'back_lay (back_stake, back_odds_matrix, lay_odds_matrix)'
-	- 'back_stake': the amount to be placed on the back betting site
-	- 'back_odds_matrix': a matrix/array with all back odds
-	- 'lay_odds_matrix': a matrix/array with the lay odds
+- `back_lay (back_stake, back_odds_matrix, lay_odds_matrix)`
+	- `back_stake`: the amount to be placed on the back betting site
+	- `back_odds_matrix`: a matrix/array with all back odds
+	- `lay_odds_matrix`: a matrix/array with the lay odds
 
-- 'arbitrage (total_stake, back_odds_matrix)'
-	- 'total_stake': the total amount that will be placed
-	- 'back_odds_matrix': a matrix/array with all back odds
+- `arbitrage (total_stake, back_odds_matrix)`
+	- `total_stake`: the total amount that will be placed
+	- `back_odds_matrix`: a matrix/array with all back odds
 	
 	
 ## Odds Matrices Formats
 
-'back_odds_matrix = numpy.array ([ [awins0, awins1, awins2,....awinsn], [draw0, draw1, draw2,....drawn], [bwins0, bwins1, bwins2,....bwinsn] ])'
+`back_odds_matrix = numpy.array ([ [awins0, awins1, awins2,....awinsn], [draw0, draw1, draw2,....drawn], [bwins0, bwins1, bwins2,....bwinsn] ])`
 
-'lay_odds_matrix = numpy.array ([ [awins], [draw], [bwins] ])'
+`lay_odds_matrix = numpy.array ([ [awins], [draw], [bwins] ])`
 
 awinsn is the odds for a to win at the nth bookie.
 
